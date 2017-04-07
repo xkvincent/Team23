@@ -29,7 +29,7 @@ public class Framework extends JFrame{
     // get the JPnael from Display plugin, and show it in the JFrame
     public JPanel getDisaplay() {
         //TODO
-        
+        //TODO
         return displayPlugin.display(map);
     }
     
