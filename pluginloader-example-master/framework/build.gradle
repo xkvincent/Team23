@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'application'
+
+group = 'cs214'
+
+version = '0.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    runtime fileTree(dir: 'lib', include: '*.jar')
+}
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+}
+
+//uploadArchives {
+//    repositories {
+//        mavenDeployer {
+//            repository(url: "<URL>")
+//        }
+//    }
+//}
+
+
+mainClassName = "framework.Framework"
