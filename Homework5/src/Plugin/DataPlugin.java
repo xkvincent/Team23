@@ -13,6 +13,6 @@ public interface DataPlugin {
      */
     void parseSource(String source);
     
-    Map<String, Integer> getMap();
+    Map<String, Double> getMap();
     
 }

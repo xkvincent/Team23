@@ -9,7 +9,7 @@ import framework.Framework;
 public interface DisplayPlugin {
     void setFramework(Framework main);
     
-    void setMap(Map<String, Integer> map);
+    void setMap(Map<String, Double> map);
     /**
      * create JPnael according to the input map.
      * @return Panel
