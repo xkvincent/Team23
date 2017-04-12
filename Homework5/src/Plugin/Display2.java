@@ -38,17 +38,16 @@ public class Display2 implements DisplayPlugin {
         
     }
 
+//    @Override
+//    public JPanel display() {
+//        JPanel jPanel = new JPanel();
+//        
+//
+//        
+//        return jPanel;
+//    }
     @Override
-    public JPanel display() {
-        JPanel jPanel = new JPanel();
-        
-//        BarChartComponent component = new BarChartComponent();
-//        return component;
-        
-        return jPanel;
-    }
-    
-    public JComponent disPlayGraph() {
+    public JComponent display() {
         BarChartComponent component = new BarChartComponent(map);
         return component;
     }
@@ -57,7 +56,7 @@ public class Display2 implements DisplayPlugin {
     
     @Override
     public JPanel disPlaySort() {
-        // TODO Auto-generated method stub
+        
         return null;
     }
 

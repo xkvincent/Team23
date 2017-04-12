@@ -6,6 +6,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JTextField;
 
 import Plugin.DataLocal;
 import Plugin.DataPlugin;
@@ -27,6 +28,8 @@ public class SelectTypeUI extends JFrame{
     private DataPlugin dataPlugin;
     private DisplayPlugin displayPlugin;
     private JButton submit;
+    private JTextField inputSource;
+    
     
     public void startUp() {
         
@@ -37,6 +40,8 @@ public class SelectTypeUI extends JFrame{
         jcb2 = new JComboBox<>();
         jcb2.addItem("Display 1");
         jcb2.addItem("Display 2");
+        
+        inputSource = new JTextField();
         
         submit = new JButton();
         submit.addActionListener(new ActionListener() {
@@ -59,17 +64,24 @@ public class SelectTypeUI extends JFrame{
                 } else {
                     displayPlugin = new Display2();
                 }
-                framework = new Framework(dataPlugin, displayPlugin);
+                framework = new Framework(dataPlugin, displayPlugin, inputSource.getText());
+//                framework.();
             }
         });
         
-        jcb.setBounds(250, 0, 150, 20);
-        jcb2.setBounds(250, 0, 150, 20);
-        //submit.setBounds(250, 50, 100, 20);
+        jcb.setBounds(100, 100, 100, 100);
+        jcb2.setBounds(150, 150, 150, 150);
+        
+        submit.setSize(20, 20);
+        this.setSize(500, 500);
+        
+        inputSource.setSize(200,30);
         
         this.add(jcb);
         this.add(jcb2);
         this.add(submit);
+        this.add(inputSource);
+        
         this.setVisible(true);
     }
 

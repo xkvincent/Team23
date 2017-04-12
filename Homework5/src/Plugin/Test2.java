@@ -59,7 +59,7 @@ public class Test2 {
         
         Display2 display2 = new Display2();
         display2.setMap(map);
-        frame.add(display2.disPlayGraph());
+        frame.add(display2.display());
         
         frame.setVisible(true);
  

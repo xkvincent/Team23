@@ -29,7 +29,7 @@ public class DataWeb implements DataPlugin {
     private Framework framework;
     private static final String restNameClass = "biz-name js-analytics-click";
     private static final String starClass = "i-stars";
-    DataWeb() {
+    public DataWeb() {
         map = new HashMap<>();
     }
     
@@ -85,8 +85,9 @@ public class DataWeb implements DataPlugin {
             
             for (Object key : sortedMap.keySet()) {
                 String keyS = (String) key;
-                System.out.println(key + "  ------  " + sortedMap.get(keyS));
+                System.out.println(key + "-" + sortedMap.get(keyS));
             }
+            System.out.println("-------------------");
             
         } catch (IOException e) {
             e.printStackTrace();

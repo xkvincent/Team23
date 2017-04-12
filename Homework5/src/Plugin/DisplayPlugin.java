@@ -2,6 +2,7 @@ package Plugin;
 
 import java.util.Map;
 
+import javax.swing.JComponent;
 import javax.swing.JPanel;
 
 import framework.Framework;
@@ -14,7 +15,7 @@ public interface DisplayPlugin {
      * create JPnael according to the input map.
      * @return Panel
      */
-    JPanel display();
+    JComponent display();
     /**
      * create another meaningful JPanel
      * @return Panel
