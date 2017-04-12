@@ -1,0 +1,249 @@
+The Twisted Frenchman-4.5
+Pizza Taglio-4.5
+Noodlehead-4.5
+Muddy Waters Oyster Bar-4.5
+Burgh’ers-4.0
+Casbah-4.0
+Whitfield-4.0
+Spoon-4.0
+Primanti Bros-4.0
+The Fire Side Public House-3.5
+Morcilla-4.5
+Proper Brick Oven & Tap Room-4.5
+The Alcove-4.5
+Point Brugge Café-4.5
+Streets On Carson-4.5
+Taiwanese Bistro Cafe 33-4.5
+DiAnoia’s Eatery-4.5
+City Works Pittsburgh-4.0
+Burgh’ers-4.0
+Pork and Beans-4.0
+Eleven-4.0
+Arancini House-5.0
+The Twisted Frenchman-4.5
+The Alcove-4.5
+Station-4.0
+Sienna Mercato-4.0
+Union Standard-4.0
+Umami-4.0
+The Summit-4.0
+Piccolo Forno-4.0
+Eddie V’s Prime Seafood-4.0
+Kaya-4.0
+The Alcove-4.5
+Hidden Harbor-4.5
+Alla Famiglia-4.5
+Butterjoint-4.0
+The Vandal-4.0
+Pirata-4.0
+Cure-4.0
+Primanti Bros.-4.0
+Sienna On The Square-4.0
+Talia Cucina & Rosticceria-3.5
+The Alcove-4.5
+Muddy Waters Oyster Bar-4.5
+Pasha Cafe Lounge-4.5
+Apteka-4.5
+Union Grill-4.0
+Seviche-4.0
+Spoon-4.0
+Shiloh Grill-4.0
+Piada Italian Street Food-4.0
+Spork-4.0
+Smoke BBQ Taqueria-3.5
+Dish Osteria and Bar-4.5
+Istanbul Sofra-4.5
+The Urban Tap-4.0
+Meat & Potatoes-4.0
+Independent Brewing Company-4.0
+Vue 412-4.0
+Beta Bites-4.0
+Sausalido-4.0
+Burgatory-4.0
+Pallantia Tapas de España-4.0
+The Commoner-3.5
+Doce Taqueria-4.5
+The Alcove-4.5
+Cafe Du Jour-4.5
+Legume-4.5
+Carmella’s Plates & Pints-4.0
+Totopo Mexican Kitchen and Bar-4.0
+Everyday Noodles-4.0
+Penn Ave Fish Company-4.0
+Avenue B-4.0
+The Foundry Table & Tap-3.5
+Revel + Roost-3.5
+Nox’s Tavern and Grille-5.0
+Applewood Smoke Burger-4.5
+The Alcove-4.5
+Turkish Kebab House-4.5
+Joseph Tambellini Restaurant-4.5
+Park Bruges-4.0
+Jabo’s Smoque House and Saloon-4.0
+Lot 17-4.0
+Whitfield-4.0
+The Abbey on Butler-3.5
+The Fire Side Public House-3.5
+Las Palmas-4.5
+The Alcove-4.5
+Green Forest Churrascaria-4.5
+Nicky’s Thai Kitchen-4.0
+Subba-4.0
+Winghart’s Burger & Whiskey Bar-4.0
+Bar Marco-4.0
+Wheelfish-4.0
+Stagioni-4.0
+Lola Bistro-4.0
+Grandview Saloon-3.5
+Nabe-4.5
+Trestle-4.5
+Il Pollaio-4.5
+Little Taqueria-4.5
+Blackwood-4.0
+August 1 Five-4.0
+Poké Bar-4.0
+Padrecito-4.0
+Mestiza Taqueria-4.0
+Burma Love-4.0
+Huli Huli Hawaiian Grill-4.5
+Sliders Diner-4.5
+Fog Harbor Fish House-4.0
+Akiko’s Restaurant-4.0
+Delarosa-4.0
+Kui Shin Bo-4.0
+Nightbird-4.0
+Chambers-4.0
+Barrel Head Brewhouse-4.0
+ROOH-3.5
+Antoninis Subs and Steaks II-4.5
+Johnny’s Seafood Cafe-4.5
+Beyond Burger-4.5
+Gringo’s Mexican Kitchen-4.0
+Taqueria El Jaliciense-4.0
+Boyd’s Cajun Grill-4.0
+Porch Cafe-4.0
+Qing Qing-4.0
+Basil House-4.0
+Gus’ Restaurant-3.5
+The Reef Seafood House-2.5
+Avec Appetit-5.0
+La Plaza-5.0
+Gilhooley’s Restaurant-4.0
+U Can’t Touch This-4.0
+Porch Cafe-4.0
+Bayou Bistro-3.5
+TopWater Grill-3.5
+Cicis-3.0
+Hartz Chicken Buffet-3.0
+Orient Express-3.0
+Luna’s Mexican Restaurant-2.5
+Jimmy’s Lounge and Grill-5.0
+Eculent-4.5
+Number 13-4.0
+Mi Cielito Lindo-4.0
+Fish Place-4.0
+Lorenzo’s Pizza-4.0
+Porch Cafe-4.0
+Bayview Duck Restaurant-4.0
+Santa Fe Seafood & Grill-4.0
+Wendy’s-3.0
+Star BBQ & Catering-2.0
+San Leon Oyster Festival-5.0
+Gator Jack’ Tavern & Grill-5.0
+Opus Bistro-4.5
+Eat Cetera-4.5
+Shearn’s Seafood & Prime Steaks-4.5
+Katie’s Bar & Grill-4.0
+Porch Cafe-4.0
+Barcena’s Mexican Grill-3.5
+Jack In the Box-2.5
+Domino’s Pizza-2.5
+Palm Terrace Cafes-2.0
+Avec Appetit-5.0
+Mi Molcasalsa-5.0
+La Plaza-5.0
+Kat’s Barbecue-5.0
+Lazy Lizard Coastal Kitchen and Cantina-4.0
+Gilhooley’s Restaurant-4.0
+U Can’t Touch This-4.0
+Porch Cafe-4.0
+Wong’s Chicken And Seafood Restaurant-4.0
+Los Aztecas Bar & Grill-3.0
+Orient Express-3.0
+Porch Cafe-4.0
+Whataburger-3.5
+Bayou Bistro-3.5
+TopWater Grill-3.5
+Kelley’s Country Cookin-3.5
+La Gardenia-3.5
+Cicis-3.0
+Hartz Chicken Buffet-3.0
+Orient Express-3.0
+Luna’s Mexican Restaurant-2.5
+Popeye’s Famous Fried Chicken-1.5
+Texas Pit Stop BBQ-4.0
+Porch Cafe-4.0
+Whataburger-3.5
+Bayou Bistro-3.5
+Kelley’s Country Cookin-3.5
+Silvia’s Mexican Grill-3.5
+La Gardenia-3.5
+Hartz Chicken Buffet-3.0
+Luna’s Mexican Restaurant-2.5
+Popeye’s Famous Fried Chicken-1.5
+Lee’s Oriental Buffet-1.5
+La Michoacana-5.0
+Sinaloa’s Mexican Food-4.5
+Simps-4.0
+Texas Pit Stop BBQ-4.0
+Porch Cafe-4.0
+The Rose Garden-4.0
+Iguanas Ranas Cantina-3.5
+Terraza Mexican Bar & Grill Restaurant-3.5
+Fortune Chinese Restaurant-3.5
+Fish Spot-3.5
+Village Pizza & Seafood-3.0
+Hacienda Mexican Food-5.0
+Mama Frances Soul Kitchen-5.0
+Food Rite Market-5.0
+La Michoacana-5.0
+Boyd’s Seafood-4.5
+Schlotzsky’s-4.0
+Porch Cafe-4.0
+Fortune Chinese Restaurant-3.5
+Olive Garden Italian Restaurant-3.5
+Rosario’s Flying Pizza Italian Restaurant-3.0
+Baytown Seafood Restaurant-3.0
+La Michoacana-5.0
+Sinaloa’s Mexican Food-4.5
+Boyd’s Seafood-4.5
+Simps-4.0
+Porch Cafe-4.0
+Iguanas Ranas Cantina-3.5
+Terraza Mexican Bar & Grill Restaurant-3.5
+Fortune Chinese Restaurant-3.5
+Fish Spot-3.5
+Olive Garden Italian Restaurant-3.5
+Village Pizza & Seafood-3.0
+La Michoacana-5.0
+Sinaloa’s Mexican Food-4.5
+Boyd’s Seafood-4.5
+Porch Cafe-4.0
+Iguanas Ranas Cantina-3.5
+Terraza Mexican Bar & Grill Restaurant-3.5
+Fortune Chinese Restaurant-3.5
+Fish Spot-3.5
+Olive Garden Italian Restaurant-3.5
+Rosario’s Flying Pizza Italian Restaurant-3.0
+Baytown Seafood Restaurant-3.0
+Hacienda Mexican Food-5.0
+La Michoacana-5.0
+Sinaloa’s Mexican Food-4.5
+Boyd’s Seafood-4.5
+Schlotzsky’s-4.0
+Porch Cafe-4.0
+Fortune Chinese Restaurant-3.5
+Fish Spot-3.5
+Olive Garden Italian Restaurant-3.5
+Rosario’s Flying Pizza Italian Restaurant-3.0
+Baytown Seafood Restaurant-3.0

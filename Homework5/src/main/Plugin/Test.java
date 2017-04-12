@@ -1,4 +1,4 @@
-package Plugin;
+package main.Plugin;
 
 public class Test {
 

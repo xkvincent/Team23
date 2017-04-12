@@ -1,16 +1,16 @@
-package Plugin;
+package main.Plugin;
 
 import java.util.Map;
 
 import javax.swing.JComponent;
 import javax.swing.JPanel;
 
-import framework.Framework;
+import main.framework.Framework;
 
 public interface DisplayPlugin {
     void setFramework(Framework main);
     
-    void setMap(Map<String, Double> map);
+    void setMap(Map<String, Double> map, Map<String, Double> sortedMap);
     /**
      * create JPnael according to the input map.
      * @return Panel

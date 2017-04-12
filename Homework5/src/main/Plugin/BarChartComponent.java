@@ -1,4 +1,4 @@
-package Plugin;
+package main.Plugin;
 
 import javax.swing.JComponent;
 import java.awt.Graphics;
@@ -28,7 +28,7 @@ public class BarChartComponent extends JComponent {
     private void calculateFrequency() {
         for(String key: map.keySet()) { //遍历map
             double star = map.get(key);
-            System.out.println(star);
+//            System.out.println(star);
             int value = 1;
             if (star >= 4.0) {
 //                if (starFreq.containsKey(4)) {
@@ -69,7 +69,7 @@ public class BarChartComponent extends JComponent {
       BarChart c = new BarChart(400, 400);
       // 需要通过对Map数据的操作，设置下面的add()
       for (int key : starFreq.keySet()) {
-          System.out.println(starFreq.get(key));
+//          System.out.println(starFreq.get(key));
           c.add(starFreq.get(key) );
       }
 //      c.add(2.0);

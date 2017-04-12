@@ -1,4 +1,4 @@
-package Plugin;
+package main.Plugin;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -10,7 +10,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 import ac.essex.graphing.charts.discrete.BarChartPlot;
-import framework.Framework;
+import main.framework.Framework;
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
@@ -22,9 +23,10 @@ import java.util.ArrayList;
 import javax.swing.JPanel;
 
 
-public class Display2 implements DisplayPlugin {
+public class DisplayBarChar implements DisplayPlugin {
     Framework framework;
     Map<String, Double> map;
+    Map<String, Double> sortedMap;
     
     @Override
     public void setFramework(Framework framework) {
@@ -33,19 +35,11 @@ public class Display2 implements DisplayPlugin {
     }
 
     @Override
-    public void setMap(Map<String, Double> map) {
+    public void setMap(Map<String, Double> map, Map<String, Double> sortedMap) {
         this.map = map;
-        
+        this.sortedMap = sortedMap;
     }
-
-//    @Override
-//    public JPanel display() {
-//        JPanel jPanel = new JPanel();
-//        
-//
-//        
-//        return jPanel;
-//    }
+    
     @Override
     public JComponent display() {
         BarChartComponent component = new BarChartComponent(map);
@@ -56,14 +50,14 @@ public class Display2 implements DisplayPlugin {
     
     @Override
     public JPanel disPlaySort() {
-        
-        return null;
+        DisplaySortPanel displaySortPanel = new DisplaySortPanel(sortedMap);
+        return displaySortPanel;
+
     }
 
     @Override
     public String getTitle() {
-        // TODO Auto-generated method stub
-        return null;
+        return "Data Distribution - Bar Graph";
     }
 
 }

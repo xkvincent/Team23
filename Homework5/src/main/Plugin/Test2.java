@@ -1,4 +1,4 @@
-package Plugin;
+package main.Plugin;
 
 import ac.essex.graphing.plotting.Graph; 
 import ac.essex.graphing.plotting.PlotSettings; 
@@ -12,6 +12,7 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.swing.BoxLayout;
 import javax.swing.JFrame; 
  
 /** 
@@ -43,9 +44,7 @@ public class Test2 {
         frame.setTitle("BarChart");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        //        BarChartComponent component = new BarChartComponent();
-       
-//        frame.add(component);
+
 
         Map<String, Double> map = new HashMap<>();
         map.put("test1", 1.5);
@@ -57,11 +56,14 @@ public class Test2 {
         map.put("test7", 4.5);
         
         
-        Display2 display2 = new Display2();
-        display2.setMap(map);
-        frame.add(display2.display());
+        DisplayBarChar display2 = new DisplayBarChar();
+//        display2.setMap(map);
+
         
+        frame.add(display2.display());
+        frame.add(display2.disPlaySort());
         frame.setVisible(true);
+        frame.pack();
  
     } 
  

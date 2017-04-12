@@ -1,4 +1,4 @@
-package Plugin;
+package main.Plugin;
 
 import java.awt.RenderingHints.Key;
 import java.io.BufferedReader;
@@ -22,7 +22,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.safety.Whitelist;
 import org.jsoup.select.Elements;
 
-import framework.Framework;
+import main.framework.Framework;
 
 public class DataWeb implements DataPlugin {
     private Map<String, Double> map;
@@ -80,14 +80,13 @@ public class DataWeb implements DataPlugin {
             
             
             
-            // sort Map by value
-            Map<Object, Object> sortedMap = sortByComparator(map);
-            
-            for (Object key : sortedMap.keySet()) {
-                String keyS = (String) key;
-                System.out.println(key + "-" + sortedMap.get(keyS));
-            }
-            System.out.println("-------------------");
+//            // sort Map by value
+//            Map<Object, Object> sortedMap = sortByComparator(map);
+//            for (Object key : sortedMap.keySet()) {
+//                String keyS = (String) key;
+//                System.out.println(key + "-" + sortedMap.get(keyS));
+//            }
+//            System.out.println("-------------------");
             
         } catch (IOException e) {
             e.printStackTrace();
@@ -102,7 +101,7 @@ public class DataWeb implements DataPlugin {
      * @param unsortMap input unsorted HashMap
      * @return sorted Map
      */
-    private static Map<Object, Object> sortByComparator(
+    private static Map<String, Double> sortByComparator(
             Map<String, Double> unsortMap) {
         List<Entry<String, Double>> list = new ArrayList<>(
                 unsortMap.entrySet());
@@ -115,13 +114,36 @@ public class DataWeb implements DataPlugin {
         });
         // put sorted list into map again
         // LinkedHashMap make sure order in which keys were inserted
-        Map<Object, Object> sortedMap = new LinkedHashMap<>();
+        Map<String, Double> sortedMap = new LinkedHashMap<>();
         for (Iterator<Entry<String, Double>> it = list.iterator();
                 it.hasNext(); ) {
             Entry<String, Double> entry = it.next();
             sortedMap.put(entry.getKey(), entry.getValue());
         }
         return sortedMap;
+    }    
+    
+    @Override
+    public Map<String, Double> getSortedMap() {
+        Map<String, Double> sortedMap = sortByComparator(map);
+        return sortedMap;
+        
+//        System.out.println("-------------------");
+//        for (Object key : sortedMap.keySet()) {
+//              String keyS = (String) key;
+//              System.out.println(key + "-" + sortedMap.get(keyS));
+//          }
+//          System.out.println("-------------------");
+//        
+//     
+//          
+//        Map<String, Double> sortedMap2 = new HashMap<String, Double>();
+//        
+//        for (Object key : sortedMap.keySet()) {
+//            String keyS = (String) key;
+//            sortedMap2.put(keyS, (double) sortedMap.get(keyS));
+//        }
+//        return sortedMap2;
     }    
    
 }

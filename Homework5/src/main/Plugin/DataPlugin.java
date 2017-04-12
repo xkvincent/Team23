@@ -1,8 +1,8 @@
-package Plugin;
+package main.Plugin;
 
 import java.util.Map;
 
-import framework.Framework;
+import main.framework.Framework;
 
 public interface DataPlugin {
     
@@ -14,5 +14,7 @@ public interface DataPlugin {
     void parseSource(String source);
     
     Map<String, Double> getMap();
+    
+    Map<String, Double> getSortedMap();
     
 }

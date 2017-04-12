@@ -1,4 +1,4 @@
-package Plugin;
+package main.Plugin;
 
 import java.util.ArrayList;
 import java.awt.Graphics2D;
